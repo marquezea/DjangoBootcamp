@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Table</h1>
+    <table border="1">
+        <thead>
+            <th>Country Name</th>
+            <th>Country Flag</th>
+            <th>GDP (millions of USD)</th>
+        </thead>
+        <tr>
+            <td>United States</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/190px-Flag_of_the_United_States.svg.png" alt=""></td>
+            <td>18,561,930</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/150px-Flag_of_India.svg.png" alt=""></td>
+            <td>2,250,990</td>
+        </tr>
+        <tr>
+            <td>United Kingdom</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png" alt=""></td>
+            <td>2,649,890</td>
+        </tr>
+    </table>
+
+    <h1>Forms</h1>
+    <form action="html_basics.html" method="GET">
+        <label for="first_name">First name:</label>
+        <input type="text" name="first_name" id="first_name" placeholder="First name" required>
+        <p></p>
+        <label for="useremail">Email:</label>
+        <input type="email" name="useremail" id="useremail">
+        <p></p>
+        <label for="userpwd">Senha:</label>
+        <input type="password" name="userpwd" id="userpwd">
+        <p></p>
+        <label for="usercolor">Color:</label>
+        <input type="color" name="usercolor" id="usercolor">
+        <p></p>
+        <label for="userdate">Date:</label>
+        <input type="date" name="userdate" id="userdate">
+        <p></p>
+        <label for="userdt">Date time:</label>
+        <input type="datetime" name="userdt" id="userdt">
+        <p></p>
+        <label for="localdt">Local Datetime:</label>
+        <input type="datetime-local" name="localdt" id="localdt">
+        <p></p>
+        <label for="userfile"></label>
+        <input type="file" name="userfile" id="userfile">
+        <p></p>
+        <label for="userhidden">Hidden:</label>
+        <input type="hidden" name="userhidden">
+        <p></p>
+        <label for="userimg"></label>
+        <input type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/128px-Electron_Software_Framework_Logo.svg.png" alt="">
+        <p></p>
+        <label for="usermonth">Month:</label>
+        <input type="month" name="usermonth" id="usermonth">
+        <p></p>
+        <label for="usernum">Integer:</label>
+        <input type="number" name="usernum" id="usernum">
+        <p></p>
+        <p>Sexo:</p>
+        <label for="sexM">Male:</label>
+        <input type="radio" name="Sex" id="sexM" value="M">
+        <label for="sexF">Female:</label>
+        <input type="radio" name="Sex" id="sexF" value="F">
+        <p></p>
+        <label for="userrange">Range:</label>
+        <input type="range" name="userrange" id="userrange">
+        <p></p>
+        <label for="usersearch">Search:</label>
+        <input type="search" name="usersearch" id="usersearch">
+        <p></p>
+        <input type="reset" value="reset">
+        <p></p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
