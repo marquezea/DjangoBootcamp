@@ -1,0 +1,39 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+.spectrum {
+    height: 300px;
+    width: 600px;
+    margin: auto;
+}
+
+td{
+    border: 4px solid white;
+}
+#one {
+    background-color: #FFB2B2;
+}
+
+#two{
+    background-color: #BF42AA;
+}
+
+#three {
+    background-color: #FF5974;
+}
+
+#four {
+    background-color: #FF8C66;
+}
+
+#five {
+    background-color: #FFD072;
+}
