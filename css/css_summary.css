@@ -1,0 +1,35 @@
+h1{
+    font-family: 'Coming Soon', cursive;
+    /*font-family: 'Architects Daughter', cursive;*/
+    text-transform: uppercase;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: 'Coming Soon', cursive;
+}
+
+#fontOne{
+    font-family: 'Architects Daughter', cursive;
+}
+#fontTwo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /*font-style: italic;*/
+    text-indent: 25px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    word-spacing: 5px; /*can be negative to overlap words */
+    text-shadow: 1px 1px lightgreen; /*horizontal vertical color*/ 
+}
+
+#boxOne{
+    width: 600px;
+    margin: 40px;
+    border-radius: 4px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 20px;
+}

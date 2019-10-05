@@ -11,14 +11,17 @@
     text-decoration: line-through;
 }
 
+/* ul after a h3 */
 h3 + ul{
     border: 2px solid purple;
 }
 
+/* a inside a li */
 li a{
     color:red;
 }
 
+/* anchor tag WHERE href = <something> */
 li a[href="www.npr.org"]{
     color:darkcyan;
     border: 2px dotted black;

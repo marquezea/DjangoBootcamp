@@ -1,0 +1,22 @@
+h1{
+    font-family:"Arial";
+}
+
+p{
+    font-family: monospace;
+}
+
+#two{
+    font-size: 1.2em;
+    font-style: italic;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    word-spacing: 20px; /*can be negative to overlap words */
+    text-shadow: 1px 1px lightgray; /*horizontal vertical color*/ 
+}
+
+body{
+    font-size: 14px;
+}
